@@ -1,0 +1,271 @@
+body {
+    background-color: transparent;
+}
+
+#login-form-maindiv {
+    background: url(./../assessts/images/login-bg.jpg);
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+.form-content > form{
+    width: 100%;
+}
+
+.login-content-innerdiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.testimonial-card-div{
+    width: 100%;
+}
+
+.form-group>label,
+.form-check-text>label {
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+    color: #9992a8;
+    font-family: "Poppins-Bold";
+    margin-bottom: 0.25rem;
+}
+
+.form-group {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.form-check-text>p {
+    color: #958EA5;
+    margin-bottom: 0px;
+    font-size: .75rem;
+}
+
+.form-group>input{
+    border: 1px solid #F2EBFC !important;
+    color: #958EA5 !important;
+    width: 100%;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-size: 13px;
+    padding: 8px !important;
+    outline: none !important;
+}
+
+.form-check {
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.switch {
+    position: relative;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.form-check-btn>.switch>input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    margin: auto;
+    margin-right: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fbfbfb;
+    -webkit-transition: .4s;
+    transition: .4s;
+    width: 31.5px;
+    height: 18.9px;
+    border-radius: 2em;
+    border: 1px solid #e8eae9;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 77%;
+    width: 47%;
+    left: 2px;
+    bottom: 2px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 4px 0 rgba(0, 0, 0, .08);
+    border-radius: 2em;
+    background: #fbfbfb;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(89%);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.forgetpasswordbtn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.forgetpasswordbtn>a {
+    font-size: 0.75rem;
+    color: #7F00FF;
+}
+.form-testimonial-cards-main-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-card-inner-div>.col-12 {
+    padding: 40px;
+}
+
+.testimonial-card-img-div>img {
+    border: 2px solid white;
+}
+#loginform {
+    display: block;
+}
+#white-logo {
+    display: none;
+}
+.testimonial-card-div {
+    width: 100%;
+    margin: auto;
+    cursor: grab;
+}
+
+.form-title-div>h2 {
+    font-size: 24px !important;
+    font-weight: 900 !important;
+    font-family: "Nunito-Bold";
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: 0 !important;
+    color: #0D012B;
+    margin-bottom: 8px;
+}
+
+.form-title-div>p {
+    color: #0D012B;
+        font-family: "Nunito-Regular";
+        font-size: 24px;
+        font-weight: 400;
+}
+
+#conditionsdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    color: #979699;
+    line-height: 1.8em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#Singup-button {
+    display: none;
+    color: #ffffff;
+    font-size: 24px !important;
+    font-weight: 900 !important;
+    font-family: "Nunito-Bold";
+    margin-bottom: 0px;
+    margin-right: auto;
+}
+
+#conditionsdiv>input {
+    margin-right: 10px;
+}
+
+#conditionsdiv a {
+    margin-left: 5px;
+}
+
+.testimonial-card-inner-div>.col-12 {
+    padding: 40px;
+}
+
+#login-button {
+    display: none;
+}
+
+.testimonial-card-div {
+    width: 100%;
+    margin: auto;
+    cursor: grab;
+}
+@media screen and (max-width: 1024px) {
+            .form-header {
+                padding: 0px 0px 0px 0px;
+            }
+        
+            .form-header {
+                flex-direction: column !important;
+            }
+        
+            .form-header>.col-12 {
+                margin-bottom: 125px;
+            }
+        #login-form-maindiv {
+                padding: 0px !important;
+                justify-content: space-between;
+            }
+                       
+                           #white-logo {
+                               display: block;
+                               width: 200px;
+                               height: 53px;
+                           }
+            
+                           #black-logo {
+                               display: none;
+                           }
+}
+@media only screen and (max-width:435px) {
+    #white-logo {
+        width: 124px;
+        height: auto;
+    }
+}

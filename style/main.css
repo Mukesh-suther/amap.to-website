@@ -1,0 +1,751 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(./../assessts/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(./../assessts/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Nunito-Regular";
+    src: url(./../assessts/fonts/Nunito/static/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Nunito-Bold";
+    src: url(./../assessts/fonts/Nunito/static/Nunito-ExtraBold.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #0D012B;
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: auto;
+    font-family: "Poppins-Regular";
+}
+
+a {
+    text-decoration: none;
+    color: #7F00FF;
+}
+
+.container,
+.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.nav {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-color: #2C1C5E;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    background: #0D012B;
+    padding: 10px;
+    z-index: 5555555;
+
+}
+
+.nav>.container {
+    padding: 0px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    max-width: 1260px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.nav-links>a:hover {
+    color: #7F00FF;
+}
+
+.nav-links>a {
+    transition-property: color;
+    transition-duration: 0.5s;
+    color: #FFFFFF;
+    fill: #FFFFFF;
+    padding: 13px 20px;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-header {
+    width: 25%;
+}
+
+.nav-menus {
+    padding: 15px 10px 5px 10px;
+}
+
+.nav-menu-main-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-nav {
+    position: fixed;
+    background-color: #0D012B;
+    z-index: 858325827;
+    display: none;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 15px;
+}
+
+.nav-menu-title {
+    font-size: 9px;
+    line-height: 1px;
+    color: white;
+    margin: auto;
+    margin-bottom: 0px !important;
+}
+
+.nav-menu-icon-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.nav-menus {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.nav-menu-title-div {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.nav-menu-icon-div {
+    text-align: center;
+}
+
+.nav-menu-icon-div>i {
+    width: 1em;
+    text-align: center;
+    color: white;
+    height: 1em;
+}
+
+.nav-title>a>img {
+    width: 52%;
+}
+
+.navbar-linking-items {
+    width: 10.773%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-linking-items>a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: end;
+    line-height: 18px;
+    color: white;
+}
+
+.Navbar-btn-div {
+    width: 14.192% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+}
+
+.navbar-btn {
+    background-color: #7F00FF;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 14px;
+    fill: #FFFFFF;
+}
+
+.navbar-btn:hover {
+    background-color: #7F00FF;
+    color: white;
+}
+
+.Hero-section {
+    background-image: url(./../assessts/images/platform-doodle-bg-02.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Hero-section-innerdiv {
+    max-width: 767px;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.Herosection-text-div {
+    padding-bottom: 35px;
+}
+
+.Hero-section-title-div>h1 {
+    font-family: "Poppins-Bold";
+    margin-bottom: 10px;
+    text-align: center;
+    color: #7F00FF;
+    font-size: 17px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.Herosection-subheading-div>h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Nunito-Bold";
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+.Herosection-description-div>p {
+    text-align: center;
+    color: #D2CCE0;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.8em;
+}
+
+.Hero-section-video-innerdiv {
+    background-color: #2C1C5E;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #2C1C5E;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 56.25%;
+    position: relative;
+    overflow: hidden;
+}
+
+.Hero-section-video-innerdiv>iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 120px 0px 90px 0px;
+}
+
+.footer-innerdiv {
+    max-width: 1260px;
+    margin: auto;
+}
+
+.footer-small-cols {
+    width: 33.333%;
+    padding: 10px;
+}
+
+.footer-cols-title {
+    color: #D2CCE0;
+    padding-bottom: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #2C1C5E;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-links-item {
+    color: #fff;
+    display: block;
+    padding: 8px 0px;
+    width: 100%;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.footer-innerdiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-large-col {
+    margin-left: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer-small-cols-maindiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    margin-bottom: 18px;
+}
+
+.footer-logo>img {
+    max-width: 166px;
+}
+
+.footer-large-col-title>h1 {
+    color: #7f00ff;
+    font-size: 23px;
+    font-family: "Poppins-Bold";
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+.footer-large-col-title>p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #D2CCE0;
+}
+
+.social-icons-div {
+    display: flex;
+    align-items: flex-start;
+}
+
+.social-icons-div>a {
+    margin-right: 10px;
+    text-decoration: none;
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #7F00FF;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.social-icons-div>a>p {
+    margin: 0px !important;
+}
+
+.footer-links-item:hover {
+    color: #7F00FF;
+}
+
+.footer-large-cols-maindiv {
+    width: 50%;
+}
+
+.testimonial-section {
+    padding-bottom: 115px;
+}
+
+#testimonial-cards-main-div {
+    max-width: 1200px !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.testimonial-card-div {
+    width: 33.333%;
+}
+
+.testimonial-card-inner-div {
+    padding: 10px;
+}
+
+.testimonial-card-inner-div>div {
+    padding: 20px 20px 20px 20px;
+    background-color: #0D012B;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #2C1C5E;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+}
+
+.testimonial-card-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 20px;
+    color: #D2CCE0;
+}
+
+.testimonial-card-user-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.testimonial-card-img-div {
+    margin-right: 15px;
+}
+
+.testimonial-card-img-div>img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.testimonial-card-username>p {
+    color: #7F00FF;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.top-footer-innerdiv {
+    max-width: 740px;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #2C1C5E;
+    padding: 10px;
+    margin: auto;
+    padding-top: 62px;
+    padding-bottom: 140px;
+}
+
+.top-footer-title {
+    font-size: 56px;
+    font-weight: 800;
+    color: #FFFFFF;
+    font-family: "Nunito-Bold";
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.top-footer-description {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #FFFFFF;
+}
+
+.top-footer-button>a {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 100px;
+    padding: 12px 14px;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    background-color: #7F00FF;
+    border-width: 0px;
+}
+
+/* Forms */
+.forms-content-innerdiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-header > .col-12{
+    width: 100%;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-header> .col-12 > .col-6 > a > img {
+    width: 145px;
+    margin-right: auto;
+}
+.form-header>.col-12>.col-6 {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.form-header>.col-12>.col-6 > p>a {
+    margin-bottom: 0px;
+    text-align: right;
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    border: none;
+    color: #958EA5;
+    background-color: transparent;
+    font-weight: 400;
+}
+.form-header>.col-12>.col-6>a{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.form-content {
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-title-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #7F00FF !important;
+    width: 100% !important;
+    border-radius: 12px !important;
+    line-height: 1.5 !important;
+    font-family: "Poppins-Regular" !important;
+    color: white !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    padding: 0.5rem 1rem !important;
+    border: none;
+    box-shadow: none !important;
+    font-size: 12px !important;
+}
+
+.contact-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #958EA5 !important;
+    font-weight: 400;
+}
+
+.contact-btn>i {
+    font-weight: 800;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.login-form-slider-maindiv {
+    background-image: url(./../assessts/images/desktop-screens-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.login-form-slider-maindiv>.testimonial-section {
+    padding-bottom: 0px;
+    height: 100%;
+}
+
+#form-testimonial-cards-main-div>.owl-carousel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    overflow-y: hidden;
+    max-width: 540px;
+}
+.form-testimonial-section {
+    height: 100%;
+}
+.form-testimonial-section .owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 30px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #7F00FF;
+    display: block;
+}
+.form-header{
+    width: 100% !important;
+}
+@media screen and (max-width: 1024px) {
+    .form-header>.col-12>.col-6>p>a{
+        color: white;
+    }
+   .login-form-slider-maindiv{
+    display: none;
+   }
+   #login-form-maindiv , .signup-form-maindiv{
+    width: 100% !important;
+    padding: 0px !important;
+   }
+   .forms-content-maindiv{
+    height: 100% !important;
+   }
+   .form-header>.col-12{
+    max-width: none !important;
+   }
+   .form-header{
+    background:url(./../assessts/images/desktop-screens-bg.jpg);
+    padding: 0px 0px 115px 0px;
+    border-radius:0px 0px 40px 40px;
+   }
+   .form-content{
+    padding: 40px 20px 20px 20px;
+
+   }
+   .contact-btn{
+    padding-bottom: 20px;
+   }
+   #login-button{
+    display: block !important;
+    margin-bottom:0px;
+   }
+#Singup-button {
+    display: block !important;
+}
+}
+@media only screen and (max-width:767px) {
+    .nav-links {
+        display: none;
+    }
+
+    .top-footer-title {
+        font-size: 32px;
+    }
+
+    .top-footer-description {
+        font-size: 14px;
+    }
+
+    .testimonial-section {
+        padding-bottom: 50px;
+    }
+
+    .testimonial-card-div {
+        width: 100%;
+    }
+
+    .footer-large-cols-maindiv {
+        width: 100%;
+    }
+
+    .nav-title>a>img {
+        width: 100%;
+    }
+
+    .nav-header {
+        width: 40%;
+    }
+
+    .Navbar-btn-div {
+        width: 25% !important;
+    }
+
+    .nav {
+        padding: 10px;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+    }
+
+    .navbar-btn {
+        padding: 5px;
+        font-size: 9px;
+    }
+
+    .bottom-nav {
+        display: block;
+    }
+
+    .footer-innerdiv {
+        flex-wrap: wrap-reverse;
+    }
+
+    .footer-large-col,
+    .footer-small-cols-maindiv {
+        width: 100%;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-small-cols {
+        width: 50%;
+    }
+
+    #footer-company-col {
+        width: 100%;
+    }
+
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .Hero-section-title-div>h1,
+    .Herosection-subheading-div>h1 {
+        text-align: left;
+    }
+
+    .Herosection-subheading-div>h1 {
+        font-size: 31px;
+    }
+
+    .Herosection-description-div>p {
+        font-size: 13px;
+        text-align: left;
+    }
+}
+@media only screen and (max-width:435px) {
+    .contact-btn , #conditionsdiv{
+        font-size: 10px !important;
+    }
+}

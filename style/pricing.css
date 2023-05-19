@@ -1,0 +1,137 @@
+#pricing-link {
+    color: #7F00FF;
+}
+
+.Hero-section-packages-plans-boxes-innerdiv {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.packags-plans-boxes {
+    padding: 10px;
+    width: 33.333%;
+}
+
+.packages-plans-boxes-innerdiv {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0D012B;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #2C1C5E;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.packages-title>p {
+    line-height: 0em;
+    padding: 0px 0px 0px 0px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 34px;
+}
+
+.packages-price>p {
+    font-family: "Nunito-Bold";
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    line-height: 23px;
+}
+
+.package-duration>p {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+.package-description>p {
+    font-size: 14px;
+    color: #D2CCE0;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.packages-buttons-div>a {
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #0D012B;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #2C1C5E;
+    border-radius: 25px;
+    padding: 11px 41px;
+    font-weight: 700;
+}
+.packages-buttons-div{
+    display: flex;
+}
+
+.pricing-section-2-innerdiv {
+    max-width: 767px;
+    padding: 10px;
+    margin: auto;
+}
+.pricing-section-2{
+    padding-bottom: 100px;
+}
+
+.pricing-section-2-innerdiv>table {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.pricing-section-2-innerdiv>table .row-1 .col-1 {
+    padding: 40px 0px !important;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: "Poppins-Bold";
+    color: #7F00FF !important;
+}
+
+.pricing-section-2-innerdiv>table .col-1 {
+    width: 58%;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.pricing-section-2-innerdiv>table .col-2,
+.pricing-section-2-innerdiv>table .col-3 {
+    width: 14%;
+    padding: 0.5em 1em 0.5em 1em;
+    text-align: center;
+    font-family: "Poppins-Bold";
+    font-size: 13px;
+}
+
+.pricing-section-2-innerdiv>table tbody tr:nth-child(odd) td {
+    background-color: #0D012B;
+    color: white;
+    font-size: 12px;
+}
+
+.pricing-section-2-innerdiv>table tbody tr:nth-child(even) td {
+    background-color: #2c1c5e;
+    color: white;
+    font-size: 13px;
+}
+.packages-buttons-div > a > i{
+    margin-left: 5px;
+}
+@media only screen and (max-width:767px) {
+    .packags-plans-boxes{
+        width: 100% !important;
+    }
+    .packages-buttons-div>a{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Hero-section-title-div > h1 , .Herosection-subheading-div > h1{
+        text-align: center;
+    }
+}

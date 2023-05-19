@@ -1,0 +1,127 @@
+#usecases-link {
+    color: #7F00FF;
+}
+.Hero-section  .container{
+    max-width: 1260px !important;
+}
+.Hero-section-innerdiv{
+    max-width: 100%;
+}
+.Herosection-description-div{
+    padding: 0% 15% 0% 15%;
+}
+.Hero-section-video-innerdiv{
+    width: 90%;
+    margin: auto;
+}
+.Hero-section-video-innerdiv > img{
+    width: 100%;
+}
+.Hero-section-video-innerdiv{
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+}
+.testimonial-section{
+    padding-top: 105px;
+}
+.usecases-section-3 , .usecases-section-4{
+        border-style: solid;
+            border-width: 0px 0px 1px 0px;
+            border-color: #2C1C5E;
+}
+.usecases-section-3-innerdiv , .usecases-section-4-innerdiv{
+    max-width: 1260px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+}
+.usecases-section-titles{
+    font-family: "Poppins-Bold";
+    color: #7F00FF;
+        font-size: 17px;
+            font-weight: 800;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+}
+.usecases-section-subtitles{
+        color: #FFFFFF;
+            font-family: "Nunito-Bold";
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 0px;
+}
+.usecases-section-description{
+        text-align: left;
+        line-height: 30px;
+            color: #D2CCE0;
+            font-size: 16px;
+            margin-bottom: 30px;
+            font-weight: 500;
+}
+.usecases-section3-sliderdiv , .usecases-section4-sliderdiv{
+    position: relative;
+}
+.usecases-section3-sliderdiv .owl-stage , .usecases-section4-sliderdiv .owl-stage{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.usecases-section3-sliderdiv .owl-carousel3 , .usecases-section4-sliderdiv .owl-carousel3{
+    overflow: hidden;
+}
+
+.usecases-section3-sliderdiv .item , .usecases-section4-sliderdiv .item{
+    width: 244px;
+    border-radius: 20px !important;
+    border: 5px solid #7F00FF !important;
+    overflow: hidden;
+}
+.usecases-section3-sliderdiv .item img , .usecases-section4-sliderdiv .item img{
+    width: 100%;
+}
+.usecases-section-3 .owl-nav , .usecases-section-4 .owl-nav{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.usecases-section-3 .owl-nav button , .usecases-section-4 .owl-nav button{
+    background-color: transparent !important;
+    border: none;
+    font-size: 55px;
+    color: white;
+}
+
+@media only screen and (max-width:767px){
+    .Hero-section-title-div > h1 , .Herosection-subheading-div > h1{
+        text-align: center;
+    }
+        .usecases-section3-sliderdiv .item,
+        .usecases-section4-sliderdiv .item{
+            width: auto;
+        }
+    .Herosection-description-div{
+        padding: 0px;
+    }
+    .Herosection-description-div > p{
+        text-align: center;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .usecases-section-3 , .usecases-section-4{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .usecases-section-3 .owl-nav,
+    .usecases-section-4 .owl-nav{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

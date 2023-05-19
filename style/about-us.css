@@ -1,0 +1,109 @@
+#about-link {
+    color: #7F00FF;
+}
+.Hero-section-video-innerdiv > img{
+    width: 100%;
+}
+.Hero-section-video-innerdiv{
+    width: 100%;
+    box-shadow: 10px 10px 0px 0px #7F00FF;
+    border:none;
+    padding-bottom: 0px;
+    background: transparent;
+}
+.Hero-section-video-maindiv{
+    padding: 0px;
+    margin-bottom: 60px;
+}
+.Hero-section-about-text > h3{
+        color: #FFFFFF;
+            font-family: "Poppins-Bold";
+            font-size: 18px;
+            font-weight: 500;
+                margin-top: 0.5rem;
+                    margin-bottom: 1rem;
+                    line-height: 1.2;
+}
+.Hero-section-about-text > p{
+        color: #D2CCE0;
+        margin-bottom: 0px;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 2em;
+}
+.Hero-section-space{
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.Hero-section-space > span{
+    width: 100%;
+    display: block;
+    border-top: 1px solid #2C1C5E;
+}
+.hero-section-thumbnail-text{
+    padding: 20px 20px 0px 0px;
+}
+.hero-section-thumbnail-text > h3{
+        font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #0D012B;
+}
+.hero-section-thumbnail{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+.hero-section-thumbnail-text > p{
+        font-size: 14px;
+            font-weight: 400;
+                line-height: 1.5em;
+                    color: #777;
+                    margin-bottom: 10px;
+}
+.hero-section-thumbnail-text > a{
+    font-weight: 700;
+    font-size: 14px;
+}
+.hero-section-thumbnail-img{
+    margin-right: 20px;
+    width: 58%;
+}
+.hero-section-thumbnail-img > a > img{
+    width: 186px;
+}
+.Hero-section-innerdiv{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width:767px){
+    .Hero-section-title-div > h1 , .Herosection-subheading-div>h1 , .Herosection-description-div > p{
+        text-align: center;
+    } 
+    .Hero-section-video-innerdiv{
+        width: 96%;
+    }
+    .Herosection-subheading-div > h1{
+        font-size: 29px;
+        line-height: 1.3em;
+    }
+        .Hero-section-about-text>p{
+            font-size: 14px;
+        }
+        .hero-section-thumbnail{
+                padding: 20px 15px 20px 15px;
+        }
+        .hero-section-thumbnail-img{
+            display: none;
+        }
+        .hero-section-thumbnail-text > p{
+                -webkit-line-clamp: 3;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+        }
+}

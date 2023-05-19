@@ -1,0 +1,132 @@
+.signup-form-maindiv {
+    background: url(./../assessts/images/login-bg.jpg);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#signup-form {
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+}
+.form-title-div>h2 {
+    font-size: 24px !important;
+    font-weight: 900 !important;
+    font-family: "Nunito-Bold";
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: 0 !important;
+    color: #0D012B;
+    margin-bottom: 8px;
+}
+.form-title-div>p {
+        font-size: 14px;
+            color: #979699;
+            line-height: 1.8em;
+}
+#signup-form>input {
+    border: 1px solid #F2EBFC !important;
+    color: #958EA5 !important;
+    width: 100%;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-size: 13px;
+    padding: 8px !important;
+    outline: none !important;
+}
+#message {
+    background-color: #DEBEFE;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 13px;
+    width: 100%;
+    display: none;
+    padding: 4px 8px !important;
+    margin-bottom: 0 !important;
+}
+#urlinputdiv {
+    color: #958EA5 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+}
+#siteurl {
+    color: #7324f5 !important;
+}
+#conditionsdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    color: #979699;
+    line-height: 1.8em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#Singup-button{
+    display: none;
+    color: #ffffff;
+        font-size: 24px !important;
+        font-weight: 900 !important;
+        font-family: "Nunito-Bold";
+        margin-bottom: 0px;
+        margin-right: auto;
+}
+#conditionsdiv>input {
+    margin-right: 10px;
+}
+
+#conditionsdiv a {
+    margin-left: 5px;
+}
+.testimonial-card-inner-div>.col-12 {
+    padding: 40px;
+}
+#login-button{
+    display: none;
+}
+#singup-icon > img{
+    width: 60px;
+    margin: auto;
+    margin-bottom: -30px;
+    display: block;
+}
+.testimonial-card-div {
+    width: 100%;
+    margin: auto;
+    cursor: grab;
+}
+#singup-icon{
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+    .signup-form-maindiv{
+        justify-content: space-between;
+    }
+    #sigup-heder-logo{
+        display: none;
+    }
+    .form-header {
+    padding: 0px 0px 0px 0px;
+}
+.form-header{
+    flex-direction: column !important;
+}
+.form-header > .col-12{
+    margin-bottom: 125px;
+}
+#singup-icon {
+    display: block;
+}
+   #onboarding-btn {
+       display: none;
+   }
+}
+
